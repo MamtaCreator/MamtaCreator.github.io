@@ -7,12 +7,14 @@ import { Component,Input } from "@angular/core";
 })
 export class PostListComponet
 {
+
   // posts = [
   //   {title: 'First post' , content:'This is my first post\' s content' },
   //   {title: 'Secound post' , content:'This is my second post\' s content' },
   //   {title: 'Third post' , content:'This is my third post\' s content' },
   // ];
 
-  @Input() posts :string[]=[];
+  @Input() posts:any = [];
+  
 
 }

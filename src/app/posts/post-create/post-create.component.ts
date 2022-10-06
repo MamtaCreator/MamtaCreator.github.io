@@ -18,9 +18,12 @@ export class PostCreateCompopnent
 
   onAddPost()
   {
-    const post = {title:this.enteredTitle,
+    let post = {
+      title: this.enteredTitle,
                   content : this.enteredContent
-                };
+    };
+    console.log(post.title);
+    console.log(post.content);
                 this.postCreated.emit(post);
   }
 }
