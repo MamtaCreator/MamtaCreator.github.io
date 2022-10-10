@@ -15,6 +15,7 @@ import { AppComponent } from './app.component';
 import { PostCreateCompopnent } from './posts/post-create/post-create.component';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponet } from './posts/post-list/post-list.component';
+import { PostService } from './posts/post.service';
 @NgModule({
   declarations: [
     AppComponent,
